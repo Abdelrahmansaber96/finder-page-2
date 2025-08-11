@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="bootstrap-5.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="fontawesome-free-7.0.0-web/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="style.css">
+</head>   
+<body>
+
+
+<!-- second-->
+<section id="navbar ">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-3 fixed-top">
+        <div class="container">
+            <a class="navbar-brand  " href="#">
+                <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <!-- Add your logo or site name here -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="34"><path d="M34.5 16.894v10.731c0 3.506-2.869 6.375-6.375 6.375H17.5h-.85C7.725 33.575.5 26.138.5 17c0-9.35 7.65-17 17-17s17 7.544 17 16.894z" fill="red"></path><g fill-rule="evenodd"><path d="M17.5 13.258c-3.101 0-5.655 2.554-5.655 5.655s2.554 5.655 5.655 5.655 5.655-2.554 5.655-5.655-2.554-5.655-5.655-5.655zm-9.433 5.655c0-5.187 4.246-9.433 9.433-9.433s9.433 4.246 9.433 9.433a9.36 9.36 0 0 1-1.569 5.192l2.397 2.397a1.89 1.89 0 0 1 0 2.671 1.89 1.89 0 0 1-2.671 0l-2.397-2.397a9.36 9.36 0 0 1-5.192 1.569c-5.187 0-9.433-4.246-9.433-9.433z" fill="#000" fill-opacity=".05"></path><g fill="#fff"><path d="M17.394 10.153c-3.723 0-6.741 3.018-6.741 6.741s3.018 6.741 6.741 6.741 6.741-3.018 6.741-6.741-3.018-6.741-6.741-6.741zM7.347 16.894A10.05 10.05 0 0 1 17.394 6.847 10.05 10.05 0 0 1 27.44 16.894 10.05 10.05 0 0 1 17.394 26.94 10.05 10.05 0 0 1 7.347 16.894z"></path><path d="M23.025 22.525c.645-.645 1.692-.645 2.337 0l3.188 3.188c.645.645.645 1.692 0 2.337s-1.692.645-2.337 0l-3.187-3.187c-.645-.646-.645-1.692 0-2.337z"></path></g></g><path d="M23.662 14.663c2.112 0 3.825-1.713 3.825-3.825s-1.713-3.825-3.825-3.825-3.825 1.713-3.825 3.825 1.713 3.825 3.825 3.825z" fill="#fff"></path><path fill-rule="evenodd" d="M23.663 8.429a2.41 2.41 0 0 0-2.408 2.408 2.41 2.41 0 0 0 2.408 2.408 2.41 2.41 0 0 0 2.408-2.408 2.41 2.41 0 0 0-2.408-2.408zm-5.242 2.408c0-2.895 2.347-5.242 5.242-5.242s5.242 2.347 5.242 5.242-2.347 5.242-5.242 5.242-5.242-2.347-5.242-5.242z" fill="currentColor"></path></svg>
+               <span class="fw-semibold">Finder</span>
+            </a>
+            
+            <div  class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 " >
+
+                    <li class="nav-item dropdown mx-2 fs-6">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Home
+                        </a>
+                        <ul class="dropdown-menu ">
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Real Estate
+                                    <br>
+                                    <small class="text-muted">Property listing directory</small>
+                                </a>
+                                <div id="sub-dropdown">
+                                    <img class="w-100" src="assets/imgs/screencapture-finder-html-createx-studio-home-real-estate-html-2025-08-08-17_31_08.png" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Cars
+                                    <br>
+                                    <small class="text-muted">Vehicle sales listings</small>
+                                </a>
+                                 <div id="sub-dropdown">
+                                    <img class="w-100" src="assets/imgs/cars.png" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Contractors
+                                    <br>
+                                    <small class="text-muted">Professional services directory</small>
+                                </a>
+                                 <div id="sub-dropdown">
+                                    <img class="w-100" src="assets/imgs/contractors.png" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Doctors
+                                    <br>
+                                    <small class="text-muted">Medical professionals listings</small>
+                                </a>
+                                 <div id="sub-dropdown">
+                                    <img class="w-100" src="assets/imgs/doctors.png" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Events
+                                    <br>
+                                    <small class="text-muted">Upcoming events listings</small>
+                                </a>
+                                 <div id="sub-dropdown">
+                                    <img class="w-100" src="assets/imgs/events.png" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    City Guide
+                                    <br>
+                                    <small class="text-muted">Local places directory</small>
+                                </a>
+                                 <div id="sub-dropdown">
+                                    <img class="w-100" src="assets/imgs/city guid.png" alt="">
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown  mx-2 fs-6">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Listings
+                        </a>
+                            <div class="dropdown-menu rounded-4 p-4">
+                                <div class="d-flex flex-column flex-lg-row gap-4">
+                                    <div style="min-width: 190px">
+                                        <div class="h6 mb-2 fw-bold ">Real Estate</div>
+                                        <ul class="nav flex-column gap-2 mt-0">
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Map/Listings Split View</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Property Details Page</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Vendor Page</a>
+                                            </li>
+                                        </ul>
+                                        <div class="h6 pt-4 mb-2 fw-bold ">Cars</div>
+                                        <ul class="nav flex-column gap-2 mt-0">
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Listings Grid View</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Listings List View</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter" href="single-entry-cars.html">Car
+                                                    Details Page</a>
+                                            </li>
+                                        </ul>
+                                        <div class="h6 pt-4 mb-2">Contractors</div>
+                                        <ul class="nav flex-column gap-2 mt-0">
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Listings with Side Filters</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Contractor Details Page</a>
+                                            </li>
+                                        </ul>
+                                        <div class="h6 pt-4 mb-2 fw-bold">Doctors</div>
+                                        <ul class="nav flex-column gap-2 mt-0">
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Listings List View</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Listings Grid View</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Doctor Details Page</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div style="min-width: 190px">
+                                        <div class=" fw-bold">Events</div>
+                                        <ul class="nav flex-column gap-2 mt-0">
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Listings with Top Filters</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Event Details Page</a>
+                                            </li>
+                                        </ul>
+                                        <div class="h6 pt-4 mb-2 fw-bold">City Guide</div>
+                                        <ul class="nav flex-column gap-2 mt-0">
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Listings with Side Filters</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Listings with Top Filters</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Place Details Page</a>
+                                            </li>
+                                        </ul>
+                                        <div class="h6 pt-4 mb-2 fw-bold">Add Property</div>
+                                        <ul class="nav flex-column gap-2 mt-0">
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Property type</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Location</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Photos and Videos</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Property Details</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Price</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Contact Info</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Ad Promotion</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div style="min-width: 190px">
+                                        <div class=" fw-bold">Add Contractor</div>
+                                        <ul class="nav flex-column gap-2 mt-0">
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Business Location</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Choose Services</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Profile Details</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Price and Hours</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Create First Project</a>
+                                            </li>
+                                        </ul>
+                                        <div class="h6 pt-4 mb-2 fw-bold">Add (Sell) Car</div>
+                                        <ul class="nav flex-column gap-2 mt-0">
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter" href="add-car.html">Add (Sell) Car
+                                                    Page</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                    </li>
+
+                    <li class="nav-item dropdown  mx-2 fs-6">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Account
+                        </a>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown  mx-2 fs-6">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item  mx-2 fs-6">
+                        <a class="nav-link active" aria-current="page" href="#">Docs</a>
+                    </li>
+                    <li class="nav-item  mx-2 fs-6 ">
+                        <a class="nav-link" href="#">Components</a>
+                    </li>
+                </ul>
+                
+            </div>
+            <span><i class="fa-solid fa-sun"></i></span>
+                <span><i id="person-icon" class="fa-solid fa-user mx-4"></i></span>
+                <button type="button" class="btn btn-danger rounded-4 d-xl-block d-lg-none d-none">
+                    <span><i  class="fa-solid fa-plus"></i></span>
+                    Join Pro Network
+                </button>
+                <button type="button" class="btn btn-danger rounded-4 d-xl-none d-md-block d-block">
+                    <span><i  class="fa-solid fa-plus"></i></span>
+                    Join
+                </button>
+        </div>
+        
+    </nav>
+</section>
+
+
+
+
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------- -->
+    <div class="container my-4">
+               <p>Home > Contractors</p>
+    </div>
+
+<div class="container">
+  <div class="row">
+    <aside class="col-lg-3 mb-4 d-xl-block d-md-none d-none">
+      <div class="bg-white rounded-4 shadow-sm p-4">
+        <!-- Location and radius -->
+        <h5 class="mb-3">Location and radius</h5>
+        <select class="form-select mb-2 rounded-4">
+          <option selected>New York</option>
+          <option>Los Angeles</option>
+          <option>Chicago</option>
+          <option>Houston</option>
+        </select>
+        <select class="form-select mb-4 rounded-4">
+          <option selected>Within 10 miles</option>
+          <option>Within 25 miles</option>
+          <option>Within 50 miles</option>
+        </select>
+
+        <!-- Project type -->
+        <h5 class="mb-3">Project type</h5>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Search project type">
+          <span class="input-group-text bg-white"><i class="fas fa-search"></i></span>
+        </div>
+        <div class="form-check mb-2">
+          <input class="form-check-input" type="checkbox" id="appliance">
+          <label class="form-check-label" for="appliance">Appliance installation</label>
+        </div>
+        <div class="form-check mb-2">
+          <input class="form-check-input" type="checkbox" id="bathtub" checked>
+          <label class="form-check-label" for="bathtub">Bathtub repair</label>
+        </div>
+        <div class="form-check mb-2">
+          <input class="form-check-input" type="checkbox" id="painting">
+          <label class="form-check-label" for="painting">Painting</label>
+        </div>
+        <div class="form-check mb-4">
+          <input class="form-check-input" type="checkbox" id="carpentry">
+          <label class="form-check-label" for="carpentry">Carpentry</label>
+        </div>
+
+        <!-- Budget -->
+        <h5 class="mb-3">Budget</h5>
+        <div class="form-check mb-2">
+          <input class="form-check-input" type="checkbox" id="budget4">
+          <label class="form-check-label" for="budget4">$$$$</label>
+        </div>
+        <div class="form-check mb-2">
+          <input class="form-check-input" type="checkbox" id="budget3" checked>
+          <label class="form-check-label" for="budget3">$$$</label>
+        </div>
+        <div class="form-check mb-2">
+          <input class="form-check-input" type="checkbox" id="budget2">
+          <label class="form-check-label" for="budget2">$$</label>
+        </div>
+        <div class="form-check mb-4">
+          <input class="form-check-input" type="checkbox" id="budget1" checked>
+          <label class="form-check-label" for="budget1">$</label>
+        </div>
+
+        <!-- Availability -->
+        <h5 class="mb-3">Availability</h5>
+        <div class="form-check mb-4">
+          <input class="form-check-input" type="checkbox" id="available">
+          <label class="form-check-label" for="available">Available now</label>
+        </div>
+
+        <!-- Average rating -->
+        <h5 class="mb-3">Average rating</h5>
+        <div class="form-check mb-2">
+          <input class="form-check-input" type="checkbox" id="rating5">
+          <label class="form-check-label" for="rating5">
+            5 <i class="fa-solid fa-star text-warning"></i>
+          </label>
+        </div>
+        <div class="form-check mb-2">
+          <input class="form-check-input" type="checkbox" id="rating4">
+          <label class="form-check-label" for="rating4">
+            4 <i class="fa-solid fa-star text-warning"></i>
+          </label>
+        </div>
+        <div class="form-check mb-2">
+          <input class="form-check-input" type="checkbox" id="rating3">
+          <label class="form-check-label" for="rating3">
+            3 <i class="fa-solid fa-star text-warning"></i>
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="rating2">
+          <label class="form-check-label" for="rating2">
+            2+ <i class="fa-solid fa-star text-warning"></i>
+          </label>
+        </div>
+      </div>
+    </aside>
+    <!-- Main content column goes here -->
+          
+    <div class="col-lg-9 col-12 ">
+        <div class="d-flex  justify-content-between align-items-center ">
+            <p>Showing 48 results</p>
+    
+            <div class="d-flex align-items-center">
+                <i class="fa-solid fa-sort mb-2 me-1"></i>
+                <select id="select" style="width: 18vh;" class="form-select mb-2 rounded-4 ">
+                    <option selected>Popular</option>
+                    <option>Newest</option>
+                    <option>Rating</option>
+                </select>
+            </div>
+        </div>
+        <div class=" container my-4">
+            <div class="profile-section ">
+                <div class="row g-0 ">
+                    <!-- Image Carousel -->
+                    <div class="col-lg-4 col-md-12 col-12  ">
+    
+                        <div id="contractorCarousel1" class="carousel slide   " data-bs-ride="carousel">
+                            <div class="verified-badge">
+                                <i class="fas fa-check-circle"></i>
+                                Verified
+                            </div>
+    
+                            <div class="carousel-inner  h-100">
+                                <div class="carousel-item active">
+                                    <div class="image-carousel">
+                                        <img src="assets/imgs/girl.jpg" alt="Samantha working on plumbing"
+                                            class="carousel-image">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="image-carousel">
+                                        <img src="assets/imgs/girl.jpg" alt="Water heater installation"
+                                            class="carousel-image">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="image-carousel">
+                                        <img src="assets/imgs/girl.jpg" alt="Professional plumbing tools"
+                                            class="carousel-image">
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <button class="carousel-control-prev" type="button" data-bs-target="#contractorCarousel1"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#contractorCarousel1"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+    
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#contractorCarousel1" data-bs-slide-to="0"
+                                    class="active"></button>
+                                <button type="button" data-bs-target="#contractorCarousel1" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#contractorCarousel" data-bs-slide-to="2"></button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Profile Content -->
+                    <div class="col-lg-8">
+                        <div class="profile-content d-flex flex-lg-row flex-sm-column align-items-sm-start">
+                            <div>
+                                <!-- Profile Header -->
+                                <div class="profile-header">
+                                    <img src="assets/imgs/girl.jpg" alt="Samantha Donovan" class="profile-avatar">
+                                    <div>
+                                        <h4 class="profile-name fs-6">Samantha Donovan</h4>
+                                    </div>
+                                </div>
+    
+                                <!-- Services -->
+                                <div class="profile-services">
+                                    <span class="service-item text-black">Water softener installation</span>
+                                    <span class="service-item text-black">Water heater repair</span>
+                                </div>
+    
+                                <!-- Description -->
+                                <p class="profile-description ">
+                                    I'm Samantha, your licensed, insured plumber in NYC. Specializing in servicing
+                                    residential buildings, high rises, offices, and eateries.
+                                </p>
+                            </div>
+    
+                            <div class="vertical-line d-lg-block  d-none"></div>
+    
+                            <!-- side Section -->
+                            <div class="profile-footer flex-column  align-items-start justify-content-around mt-5 ">
+                                <div class="profile-stats">
+                                    <!-- Rating --> <span><button class="btn btn-bookmark ">
+                                            <i class="far fa-bookmark"></i>
+                                        </button></span>
+                                    <div class="rating-section">
+                                        <i class="fas fa-star rating-star"></i>
+                                        <span></span>
+                                        <span class="rating-value">4.7</span>
+                                        <span class="rating-count">(26)</span>
+                                    </div>
+    
+                                    <!-- Badges -->
+                                    <div class="badges-section">
+                                        <div class="badge-item badge-featured">
+                                            <i class="fas fa-thumbs-up"></i>
+                                            <span>Listing of the month</span>
+                                        </div>
+                                        <div class="badge-item badge-eco">
+                                            <i class="fas fa-leaf"></i>
+                                            <span>Eco-friendly</span>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <!-- Actions -->
+                                <div class="profile-actions">
+                                    <button class="btn btn-connect">
+                                        <i class="fas fa-envelope"></i>
+                                        Connect
+                                    </button>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--=====================-----------------------------------first--------------------------------------------------------------- -->
+        <div class=" container my-4">
+            <div class="profile-section ">
+                <div class="row g-0 ">
+                    <!-- Image Carousel -->
+                    <div class="col-lg-4 col-md-12 col-12  ">
+    
+                        <div id="contractorCarousel2" class="carousel slide   " data-bs-ride="carousel">
+                            <div class="verified-badge">
+                                <i class="fas fa-check-circle"></i>
+                                Verified
+                            </div>
+    
+                            <div class="carousel-inner  h-100">
+                                <div class="carousel-item active">
+                                    <div class="image-carousel">
+                                        <img src="assets/imgs/girl.jpg" alt="Samantha working on plumbing"
+                                            class="carousel-image">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="image-carousel">
+                                        <img src="assets/imgs/girl.jpg" alt="Water heater installation"
+                                            class="carousel-image">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="image-carousel">
+                                        <img src="assets/imgs/girl.jpg" alt="Professional plumbing tools"
+                                            class="carousel-image">
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <button class="carousel-control-prev" type="button" data-bs-target="#contractorCarousel2"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#contractorCarousel2"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+    
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#contractorCarousel2" data-bs-slide-to="0"
+                                    class="active"></button>
+                                <button type="button" data-bs-target="#contractorCarousel2" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#contractorCarousel2" data-bs-slide-to="2"></button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Profile Content -->
+                    <div class="col-lg-8">
+                        <div class="profile-content d-flex flex-lg-row flex-sm-column align-items-sm-start">
+                            <div>
+                                <!-- Profile Header -->
+                                <div class="profile-header">
+                                    <img src="assets/imgs/girl.jpg" alt="Samantha Donovan" class="profile-avatar">
+                                    <div>
+                                        <h4 class="profile-name fs-6">Samantha Donovan</h4>
+                                    </div>
+                                </div>
+    
+                                <!-- Services -->
+                                <div class="profile-services">
+                                    <span class="service-item text-black">Water softener installation</span>
+                                    <span class="service-item text-black">Water heater repair</span>
+                                </div>
+    
+                                <!-- Description -->
+                                <p class="profile-description ">
+                                    I'm Samantha, your licensed, insured plumber in NYC. Specializing in servicing
+                                    residential buildings, high rises, offices, and eateries.
+                                </p>
+                            </div>
+    
+                            <div class="vertical-line d-lg-block  d-none"></div>
+    
+                            <!-- side Section -->
+                            <div class="profile-footer flex-column  align-items-start justify-content-around mt-5 ">
+                                <div class="profile-stats">
+                                    <!-- Rating --> <span><button class="btn btn-bookmark ">
+                                            <i class="far fa-bookmark"></i>
+                                        </button></span>
+                                    <div class="rating-section">
+                                        <i class="fas fa-star rating-star"></i>
+                                        <span></span>
+                                        <span class="rating-value">4.7</span>
+                                        <span class="rating-count">(26)</span>
+                                    </div>
+    
+                                    <!-- Badges -->
+                                    <div class="badges-section">
+                                        <div class="badge-item badge-featured">
+                                            <i class="fas fa-thumbs-up"></i>
+                                            <span>Listing of the month</span>
+                                        </div>
+                                        <div class="badge-item badge-eco">
+                                            <i class="fas fa-leaf"></i>
+                                            <span>Eco-friendly</span>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <!-- Actions -->
+                                <div class="profile-actions">
+                                    <button class="btn btn-connect">
+                                        <i class="fas fa-envelope"></i>
+                                        Connect
+                                    </button>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+                   
+        <!-- --------------------------------------------------------second------------------------------------------------------------------- -->
+           
+            <div class="profile-section my-4">
+                <div class="row g-0 ">
+                    <!-- Image Carousel -->
+                    <div class="col-lg-4 col-md-12 col-12  ">
+    
+                        <div id="contractorCarousel3" class="carousel slide   " data-bs-ride="carousel">
+                            <div class="verified-badge">
+                                <i class="fas fa-check-circle"></i>
+                                Verified
+                            </div>
+    
+                            <div class="carousel-inner  h-100">
+                                <div class="carousel-item active">
+                                    <div class="image-carousel">
+                                        <img src="assets/imgs/girl.jpg" alt="Samantha working on plumbing"
+                                            class="carousel-image">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="image-carousel">
+                                        <img src="assets/imgs/girl.jpg" alt="Water heater installation"
+                                            class="carousel-image">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="image-carousel">
+                                        <img src="assets/imgs/girl.jpg" alt="Professional plumbing tools"
+                                            class="carousel-image">
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <button class="carousel-control-prev" type="button" data-bs-target="#contractorCarousel3"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#contractorCarousel3"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+    
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#contractorCarouse3" data-bs-slide-to="0"
+                                    class="active"></button>
+                                <button type="button" data-bs-target="#contractorCarouse3" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#contractorCarouse3" data-bs-slide-to="2"></button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Profile Content -->
+                    <div class="col-lg-8">
+                        <div class="profile-content d-flex flex-lg-row flex-sm-column align-items-sm-start">
+                            <div>
+                                <!-- Profile Header -->
+                                <div class="profile-header">
+                                    <img src="assets/imgs/girl.jpg" alt="Samantha Donovan" class="profile-avatar">
+                                    <div>
+                                        <h4 class="profile-name fs-6">Samantha Donovan</h4>
+                                    </div>
+                                </div>
+    
+                                <!-- Services -->
+                                <div class="profile-services">
+                                    <span class="service-item text-black">Water softener installation</span>
+                                    <span class="service-item text-black">Water heater repair</span>
+                                </div>
+    
+                                <!-- Description -->
+                                <p class="profile-description ">
+                                    I'm Samantha, your licensed, insured plumber in NYC. Specializing in servicing
+                                    residential buildings, high rises, offices, and eateries.
+                                </p>
+                            </div>
+    
+                            <div class="vertical-line d-lg-block  d-none"></div>
+    
+                            <!-- side Section -->
+                            <div class="profile-footer flex-column  align-items-start justify-content-around mt-5 ">
+                                <div class="profile-stats">
+                                    <!-- Rating --> <span><button class="btn btn-bookmark ">
+                                            <i class="far fa-bookmark"></i>
+                                        </button></span>
+                                    <div class="rating-section">
+                                        <i class="fas fa-star rating-star"></i>
+                                        <span></span>
+                                        <span class="rating-value">4.7</span>
+                                        <span class="rating-count">(26)</span>
+                                    </div>
+    
+                                    <!-- Badges -->
+                                    <div class="badges-section">
+                                        <div class="badge-item badge-featured">
+                                            <i class="fas fa-thumbs-up"></i>
+                                            <span>Listing of the month</span>
+                                        </div>
+                                        <div class="badge-item badge-eco">
+                                            <i class="fas fa-leaf"></i>
+                                            <span>Eco-friendly</span>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <!-- Actions -->
+                                <div class="profile-actions">
+                                    <button class="btn btn-connect">
+                                        <i class="fas fa-envelope"></i>
+                                        Connect
+                                    </button>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        <!-- -----------------------------------------------------------third------------------------------------------------------------------------ -->
+                   <div class="profile-section my-4">
+                <div class="row g-0 ">
+                    <!-- Image Carousel -->
+                    <div class="col-lg-4 col-md-12 col-12  ">
+    
+                        <div id="contractorCarousel4" class="carousel slide   " data-bs-ride="carousel">
+                            <div class="verified-badge">
+                                <i class="fas fa-check-circle"></i>
+                                Verified
+                            </div>
+    
+                            <div class="carousel-inner  h-100">
+                                <div class="carousel-item active">
+                                    <div class="image-carousel">
+                                        <img src="assets/imgs/girl.jpg" alt="Samantha working on plumbing"
+                                            class="carousel-image">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="image-carousel">
+                                        <img src="assets/imgs/girl.jpg" alt="Water heater installation"
+                                            class="carousel-image">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="image-carousel">
+                                        <img src="assets/imgs/girl.jpg" alt="Professional plumbing tools"
+                                            class="carousel-image">
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <button class="carousel-control-prev" type="button" data-bs-target="#contractorCarousel4"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#contractorCarousel4"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+    
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#contractorCarouse4" data-bs-slide-to="0"
+                                    class="active"></button>
+                                <button type="button" data-bs-target="#contractorCarouse4" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#contractorCarouse4" data-bs-slide-to="2"></button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Profile Content -->
+                    <div class="col-lg-8">
+                        <div class="profile-content d-flex flex-lg-row flex-sm-column align-items-sm-start">
+                            <div>
+                                <!-- Profile Header -->
+                                <div class="profile-header">
+                                    <img src="assets/imgs/girl.jpg" alt="Samantha Donovan" class="profile-avatar">
+                                    <div>
+                                        <h4 class="profile-name fs-6">Samantha Donovan</h4>
+                                    </div>
+                                </div>
+    
+                                <!-- Services -->
+                                <div class="profile-services">
+                                    <span class="service-item text-black">Water softener installation</span>
+                                    <span class="service-item text-black">Water heater repair</span>
+                                </div>
+    
+                                <!-- Description -->
+                                <p class="profile-description ">
+                                    I'm Samantha, your licensed, insured plumber in NYC. Specializing in servicing
+                                    residential buildings, high rises, offices, and eateries.
+                                </p>
+                            </div>
+    
+                            <div class="vertical-line d-lg-block  d-none"></div>
+    
+                            <!-- side Section -->
+                            <div class="profile-footer flex-column  align-items-start justify-content-around mt-5 ">
+                                <div class="profile-stats">
+                                    <!-- Rating --> <span><button class="btn btn-bookmark ">
+                                            <i class="far fa-bookmark"></i>
+                                        </button></span>
+                                    <div class="rating-section">
+                                        <i class="fas fa-star rating-star"></i>
+                                        <span></span>
+                                        <span class="rating-value">4.7</span>
+                                        <span class="rating-count">(26)</span>
+                                    </div>
+    
+                                    <!-- Badges -->
+                                    <div class="badges-section">
+                                        <div class="badge-item badge-featured">
+                                            <i class="fas fa-thumbs-up"></i>
+                                            <span>Listing of the month</span>
+                                        </div>
+                                        <div class="badge-item badge-eco">
+                                            <i class="fas fa-leaf"></i>
+                                            <span>Eco-friendly</span>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <!-- Actions -->
+                                <div class="profile-actions">
+                                    <button class="btn btn-connect">
+                                        <i class="fas fa-envelope"></i>
+                                        Connect
+                                    </button>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        <!-- -------------------------------------------------fourth------------------------------------------------------------------------------ -->
+               <div class="profile-section my-4">
+                <div class="row g-0 ">
+                    <!-- Image Carousel -->
+                    <div class="col-lg-4 col-md-12 col-12  ">
+    
+                        <div id="contractorCarousel5" class="carousel slide   " data-bs-ride="carousel">
+                            <div class="verified-badge">
+                                <i class="fas fa-check-circle"></i>
+                                Verified
+                            </div>
+    
+                            <div class="carousel-inner  h-100">
+                                <div class="carousel-item active">
+                                    <div class="image-carousel">
+                                        <img src="assets/imgs/girl.jpg" alt="Samantha working on plumbing"
+                                            class="carousel-image">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="image-carousel">
+                                        <img src="assets/imgs/girl.jpg" alt="Water heater installation"
+                                            class="carousel-image">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="image-carousel">
+                                        <img src="assets/imgs/girl.jpg" alt="Professional plumbing tools"
+                                            class="carousel-image">
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <button class="carousel-control-prev" type="button" data-bs-target="#contractorCarousel5"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#contractorCarousel5"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+    
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#contractorCarouse5" data-bs-slide-to="0"
+                                    class="active"></button>
+                                <button type="button" data-bs-target="#contractorCarouse5" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#contractorCarouse5" data-bs-slide-to="2"></button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Profile Content -->
+                    <div class="col-lg-8">
+                        <div class="profile-content d-flex flex-lg-row flex-sm-column align-items-sm-start">
+                            <div>
+                                <!-- Profile Header -->
+                                <div class="profile-header">
+                                    <img src="assets/imgs/girl.jpg" alt="Samantha Donovan" class="profile-avatar">
+                                    <div>
+                                        <h4 class="profile-name fs-6">Samantha Donovan</h4>
+                                    </div>
+                                </div>
+    
+                                <!-- Services -->
+                                <div class="profile-services">
+                                    <span class="service-item text-black">Water softener installation</span>
+                                    <span class="service-item text-black">Water heater repair</span>
+                                </div>
+    
+                                <!-- Description -->
+                                <p class="profile-description ">
+                                    I'm Samantha, your licensed, insured plumber in NYC. Specializing in servicing
+                                    residential buildings, high rises, offices, and eateries.
+                                </p>
+                            </div>
+    
+                            <div class="vertical-line d-lg-block  d-none"></div>
+    
+                            <!-- side Section -->
+                            <div class="profile-footer flex-column  align-items-start justify-content-around mt-5 ">
+                                <div class="profile-stats">
+                                    <!-- Rating --> <span><button class="btn btn-bookmark ">
+                                            <i class="far fa-bookmark"></i>
+                                        </button></span>
+                                    <div class="rating-section">
+                                        <i class="fas fa-star rating-star"></i>
+                                        <span></span>
+                                        <span class="rating-value">4.7</span>
+                                        <span class="rating-count">(26)</span>
+                                    </div>
+    
+                                    <!-- Badges -->
+                                    <div class="badges-section">
+                                        <div class="badge-item badge-featured">
+                                            <i class="fas fa-thumbs-up"></i>
+                                            <span>Listing of the month</span>
+                                        </div>
+                                        <div class="badge-item badge-eco">
+                                            <i class="fas fa-leaf"></i>
+                                            <span>Eco-friendly</span>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <!-- Actions -->
+                                <div class="profile-actions">
+                                    <button class="btn btn-connect">
+                                        <i class="fas fa-envelope"></i>
+                                        Connect
+                                    </button>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+               </div>    
+        <!-- ---------------------------------------------------------------fifth--------------------------------------------------------------------- -->
+
+             
+
+               
+
+    
+    
+      <!-- --------------------------------------------------------------------------------pagination---------------------------------------------------- -->
+        </div>     
+      <nav aria-label="Page navigation example ">
+                <ul class="pagination">
+                    <li class="page-item active"><a class="page-link rounded-circle me-2" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link rounded-circle me-2" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link rounded-circle me-2" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link rounded-circle me-2" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link rounded-circle me-2" href="#">5</a></li>
+                </ul>
+            </nav>
+    </div>
+    
+  </div>
+                 
+</div>
+
+<!-- ------------------footer----------------------- -->
+
+    <footer>
+        <div class="demo-content">
+        <div class="container">
+            
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- Newsletter Section -->
+        <div class="newsletter-section">
+            <div class="container">
+                <div class="newsletter-content">
+                    <div class="newsletter-text">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Subscribe to our newsletter</span>
+                    </div>
+                    
+                    <div class="d-flex align-items-center gap-3">
+                        <form class="newsletter-form">
+                            <input  type="email" class="form-control newsletter-input" placeholder="Enter your email address" required>
+                            <button type="submit" class="btn btn-subscribe">Subscribe</button>
+                        </form>
+                    </div>
+                    
+                    <div class="d-flex align-items-center">
+                        <span class="help-text">Need help?</span>
+                        <a href="#" class="contact-link">Contact us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Footer Content -->
+        <div class="footer-content">
+            <div class="container">
+                <div class="row ">
+                    <!-- Brand Column -->
+                    <div class="col-lg-5 col-12 mb-5 ">
+                        <div class="footer-brand">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="34"><path d="M34.5 16.894v10.731c0 3.506-2.869 6.375-6.375 6.375H17.5h-.85C7.725 33.575.5 26.138.5 17c0-9.35 7.65-17 17-17s17 7.544 17 16.894z" fill="red"></path><g fill-rule="evenodd"><path d="M17.5 13.258c-3.101 0-5.655 2.554-5.655 5.655s2.554 5.655 5.655 5.655 5.655-2.554 5.655-5.655-2.554-5.655-5.655-5.655zm-9.433 5.655c0-5.187 4.246-9.433 9.433-9.433s9.433 4.246 9.433 9.433a9.36 9.36 0 0 1-1.569 5.192l2.397 2.397a1.89 1.89 0 0 1 0 2.671 1.89 1.89 0 0 1-2.671 0l-2.397-2.397a9.36 9.36 0 0 1-5.192 1.569c-5.187 0-9.433-4.246-9.433-9.433z" fill="#000" fill-opacity=".05"></path><g fill="#fff"><path d="M17.394 10.153c-3.723 0-6.741 3.018-6.741 6.741s3.018 6.741 6.741 6.741 6.741-3.018 6.741-6.741-3.018-6.741-6.741-6.741zM7.347 16.894A10.05 10.05 0 0 1 17.394 6.847 10.05 10.05 0 0 1 27.44 16.894 10.05 10.05 0 0 1 17.394 26.94 10.05 10.05 0 0 1 7.347 16.894z"></path><path d="M23.025 22.525c.645-.645 1.692-.645 2.337 0l3.188 3.188c.645.645.645 1.692 0 2.337s-1.692.645-2.337 0l-3.187-3.187c-.645-.646-.645-1.692 0-2.337z"></path></g></g><path d="M23.662 14.663c2.112 0 3.825-1.713 3.825-3.825s-1.713-3.825-3.825-3.825-3.825 1.713-3.825 3.825 1.713 3.825 3.825 3.825z" fill="#fff"></path><path fill-rule="evenodd" d="M23.663 8.429a2.41 2.41 0 0 0-2.408 2.408 2.41 2.41 0 0 0 2.408 2.408 2.41 2.41 0 0 0 2.408-2.408 2.41 2.41 0 0 0-2.408-2.408zm-5.242 2.408c0-2.895 2.347-5.242 5.242-5.242s5.242 2.347 5.242 5.242-2.347 5.242-5.242 5.242-5.242-2.347-5.242-5.242z" fill="currentColor"></path></svg>
+                            <h4 class="footer-brand-text">Finder</h4>
+                        </div>
+                        <p class="footer-description ">
+                            Connecting you with reliable local<br> contractors for all your service needs.
+                        </p>
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                               <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                               <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Popular Categories Column -->
+                      <a class="btn btn-outline-secondary d-lg-none d-md-none d-sm-block my-3" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Popular categories  </a>
+                    <div id="multiCollapseExample1" class= "col-lg-5  col-md-6 d-lg-block d-md-block collapse multi-collapse ">
+                        <div class="footer-section">
+                            <h5 class="d-lg-block d-md-block d-sm-none d-none">Popular categories</h5>
+                            <div class="d-flex flex-wrap gap-5 ">
+                                <ul class="footer-links">
+                                <li><a href="#">Air conditioning</a></li>
+                                <li><a href="#">Painting</a></li>
+                                <li><a href="#">Electrician</a></li>
+                                <li><a href="#">Concrete</a></li>
+                                <li><a href="#">Plumbing</a></li>
+                                <li><a href="#">Roofing</a></li>
+                            </ul>
+                            <ul class="footer-links">
+                                <li><a href="#">Cleaning</a></li>
+                                <li><a href="#">Heating & furnace</a></li>
+                                <li><a href="#">Carpentry</a></li>
+                                <li><a href="#">Flooring</a></li>
+                                <li><a href="#">Pest control</a></li>
+                                <li><a href="#">Landscaping</a></li>
+                            </div>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Services Column -->
+                   
+
+                    <!-- Company Column -->
+                     <a class="btn btn-outline-secondary d-lg-none d-md-none d-sm-block my-3" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2">Company</a>
+                    <div id="multiCollapseExample2" class="col-lg-2 col-md-6  d-lg-block d-md-block collapse multi-collapse">
+                        <div class="footer-section">
+                            <h5 class="d-lg-block d-md-block d-sm-none d-none">Company</h5>
+                            <ul class="footer-links">
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Press & announcements</a></li>
+                                <li><a href="#">Careers at Finder</a></li>
+                                <li><a href="#">Contact us</a></li>
+                                <li><a href="#">Terms of use</a></li>
+                                <li><a href="#">Privacy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cities Section -->
+        <div class="cities-section">
+            <div class="container">
+                <h5 class="cities-title">Top cities</h5>
+                <div class="city-tags">
+                    <a href="#" class="city-tag">New York</a>
+                    <a href="#" class="city-tag">Chicago</a>
+                    <a href="#" class="city-tag">Indianapolis</a>
+                    <a href="#" class="city-tag">Boston</a>
+                    <a href="#" class="city-tag">Atlanta</a>
+                    <a href="#" class="city-tag">Cincinnati</a>
+                    <a href="#" class="city-tag">Los Angeles</a>
+                    <a href="#" class="city-tag">Dallas</a>
+                    <a href="#" class="city-tag">Pittsburgh</a>
+                    <a href="#" class="city-tag">Tampa</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <p class="copyright-text">
+                        © All rights reserved. Made by 
+                        <a href="#" class="createx-link">Createx Studio</a>
+                    </p>
+                    
+                    <div class="payment-methods">
+                        <div class="payment-placeholder"><i class="fa-brands fa-cc-visa"></i></div>
+                        <div class="payment-placeholder"><i class="fa-brands fa-apple-pay"></i></div>
+                        <div class="payment-placeholder"><i class="fa-brands fa-google-pay"></i></div>
+                        <div class="payment-placeholder"><i class="fa-brands fa-paypal"></i></div>
+                        <div class="payment-placeholder"><i class="fa-brands fa-cc-mastercard"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </footer>
+
+    <script src="bootstrap-5.3.7-dist/js/bootstrap.bundle.js"></script>
+    <script src="fontawesome-free-7.0.0-web/js/all.js"></script>
+</body>
+</html>
